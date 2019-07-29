@@ -1,4 +1,4 @@
-https://circleci.com/gh/chiphwang/udacitykubeproject/tree/master.svg?style=svg
+<[![CircleCI](https://circleci.com/gh/chiphwang/udacitykubeproject/tree/master.svg?style=svg)](https://circleci.com/gh/chiphwang/udacitykubeproject/tree/master>
 
 ## Project Overview
 
