@@ -1,0 +1,7 @@
+(.devops) chips-MBP:project-ml-microservice-kubernetes chiphwang$ ./run_kubernetes.sh
+deployment.apps "app" created
+NAME                  READY     STATUS              RESTARTS   AGE
+app-74b65997d-z6mqh   0/1       Terminating         0          30m
+app-74b65997d-z8w9z   0/1       ContainerCreating   0          0s
+service "app" exposed
+(.devops) chips-MBP:project-ml-microservice-kubernetes chiphwang$

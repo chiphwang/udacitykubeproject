@@ -1,0 +1,8 @@
+chips-MBP:project-ml-microservice-kubernetes chiphwang$ ./make_prediction.sh
+Port: 8080
+{
+  "prediction": [
+    20.35373177134412
+  ]
+}
+chips-MBP:project-ml-microservice-kubernetes chiphwang$

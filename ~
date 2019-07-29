@@ -1,0 +1,29 @@
+# Please edit the object below. Lines beginning with a '#' will be ignored,
+# and an empty file will abort the edit. If an error occurs while saving this file will be
+# reopened with the relevant failures.
+#
+apiVersion: v1
+kind: Service
+metadata:
+  creationTimestamp: 2019-07-29T03:04:26Z
+  labels:
+    run: app
+  name: app
+  namespace: default
+  resourceVersion: "22607"
+  selfLink: /api/v1/namespaces/default/services/app
+  uid: fe5f2b57-fd27-4c0d-9570-dbb73ff00ec2
+spec:
+  clusterIP: 10.97.208.111
+  externalTrafficPolicy: Cluster
+  ports:
+  - nodePort: 30000
+    port: 8080
+    protocol: TCP
+    targetPort: 80
+  selector:
+    run: app
+  sessionAffinity: None
+  type: NodePort
+status:
+  loadBalancer: {}
