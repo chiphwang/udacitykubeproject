@@ -1,4 +1,4 @@
-<include a CircleCI status badge, here>
+<https://circleci.com/gh/chiphwang/udacitykubeproject/tree/master.svg?style=svg>
 
 ## Project Overview
 
